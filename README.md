@@ -6,3 +6,4 @@ collect the problems met for hardware and software and solutions
 - Winget source problem (couldn't fetch from winget source) and error `Failed in attempting to update the source: winget`. It's due to the shipped ms store (App Installer -> Microsoft.AppInstaller) is too old, update to the newest one solves the problem.
   - First reinstall the source `https://cdn.winget.microsoft.com/cache/source.msix` will let the winget list the files from winget source, but still get the above error
   - Now just update the msstore by winget `winget install Microsoft.AppInstaller`
+- To use command in shell (e.g `vim`), need add the path to the path enviroment.
