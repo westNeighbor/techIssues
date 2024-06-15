@@ -1,4 +1,4 @@
-# techIssues
+# tech Issues
 collect the problems met for hardware and software and solutions
 
 # Windows Installation
