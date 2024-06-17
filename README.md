@@ -8,3 +8,5 @@ collect the problems met for hardware and software and solutions
   - Now just update the msstore by winget `winget install Microsoft.AppInstaller`
 - To use command in shell (e.g `vim`), need add the path to the path enviroment.
 - magick couldn't render when using font with Chinese characters in the name. Using Unicode utf-8 for the system can solve the problem. `Start -> Region (Control Panel) -> Administrative -> Change system locale -> Use Unicode UTF-8 for worldwide language support`, notice: search `Region` in the `Start` and select the one that is `Control panel`
+
+  Or `Settings -> Time & language -> Language & region -> Related settings -> Administrative language settings`
