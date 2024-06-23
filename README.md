@@ -17,4 +17,4 @@ collect the problems met for hardware and software and solutions
 # Linux and MacOS
 - ![Homebrew](https://brew.sh/) to install and manage MacOS softwares
 - ![Oh My Zsh](https://ohmyz.sh/) as default shell
-- ![Vundle](https://github.com/VundleVim/Vundle.vim) to install and manage `vim` plugins. ![YouCompleteMe](https://github.com/ycm-core/YouCompleteMe) as IDE engine.
+- ![Vundle](https://github.com/VundleVim/Vundle.vim) to install and manage `vim` plugins. ![YouCompleteMe](https://github.com/ycm-core/YouCompleteMe) as `C/C++` and `Python` development engine.
