@@ -10,3 +10,6 @@ collect the problems met for hardware and software and solutions
 - magick couldn't render when using font with Chinese characters in the name. Using Unicode utf-8 for the system can solve the problem. `Start -> Region (Control Panel) -> Administrative -> Change system locale -> Use Unicode UTF-8 for worldwide language support`, notice: search `Region` in the `Start` and select the one that is `Control panel`
 
   Or `Settings -> Time & language -> Language & region -> Related settings -> Administrative language settings`
+
+- Stable Diffusion & ComfyUI
+  - `Install` or `Update` the needed packages (e.g. CUDA, CNDNN, extensions dependents) to their own python packages, so they will not depend on the OS.
