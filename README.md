@@ -31,8 +31,10 @@ collect the problems met for hardware and software and solutions
               ********************************************************************************
     For example, the package `insightface`, choose the version from your python. For example, my python was 3.11.8 I downloaded "insightface-0.7.3-cp311-cp311-win_amd64.whl" and copy on Root comfyUI
     
-    >|-- ComfyUI
-    >|--- insightface-0.7.3-cp311-cp311-win_amd64.whl
+    |-- ComfyUI
+    
+    |--- insightface-0.7.3-cp311-cp311-win_amd64.whl
+    
     In the termial, execute `.\python_embeded\python.exe -m pip install "your path \insightface-0.7.3-cp311-cp311-win_amd64.whl" onnxruntime`, if shows no perssion, go to the folder, right click -> Properties -> Security -> Edit, gives `Users` `full control` permission
 
 # Linux and MacOS
