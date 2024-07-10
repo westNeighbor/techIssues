@@ -13,7 +13,7 @@ collect the problems met for hardware and software and solutions
 
 - Stable Diffusion & ComfyUI
   - `Install` or `Update` the needed packages (e.g. CUDA, CNDNN, extensions dependents) to their own python packages, so they will not depend on the OS.
-  - ComfyUI failed to install package and giving messages like this:
+  - ComfyUI failed to install package and giving messages like this: 
     !!
 
               ********************************************************************************
@@ -29,7 +29,10 @@ collect the problems met for hardware and software and solutions
               For simple scenarios, you can also try parsing the file directly
               with the help of ``configparser``.
               ********************************************************************************
-      !!
+    For example, the package `insightface`, choose the version from your python. For example, my python was 3.11.8 I downloaded "insightface-0.7.3-cp311-cp311-win_amd64.whl" and copy on Root comfyUI
+    |-- ComfyUI
+    |--- insightface-0.7.3-cp311-cp311-win_amd64.whl
+    In the termial, execute `.\python_embeded\python.exe -m pip install "your path \insightface-0.7.3-cp311-cp311-win_amd64.whl" onnxruntime`
 
 # Linux and MacOS
 - ![Homebrew](https://brew.sh/) to install and manage MacOS softwares
