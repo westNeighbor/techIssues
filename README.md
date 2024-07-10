@@ -29,7 +29,6 @@ collect the problems met for hardware and software and solutions
               For simple scenarios, you can also try parsing the file directly
               with the help of ``configparser``.
               ********************************************************************************
-
       !!
 
 # Linux and MacOS
