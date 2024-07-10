@@ -13,6 +13,24 @@ collect the problems met for hardware and software and solutions
 
 - Stable Diffusion & ComfyUI
   - `Install` or `Update` the needed packages (e.g. CUDA, CNDNN, extensions dependents) to their own python packages, so they will not depend on the OS.
+  - ComfyUI failed to install package and giving messages like this:
+    >       !!
+
+              ********************************************************************************
+              As setuptools moves its configuration towards `pyproject.toml`,
+              `setuptools.config.parse_configuration` became deprecated.
+
+              For the time being, you can use the `setuptools.config.setupcfg` module
+              to access a backward compatible API, but this module is provisional
+              and might be removed in the future.
+
+              To read project metadata, consider using
+              ``build.util.project_wheel_metadata`` (https://pypi.org/project/build/).
+              For simple scenarios, you can also try parsing the file directly
+              with the help of ``configparser``.
+              ********************************************************************************
+
+      !!
 
 # Linux and MacOS
 - ![Homebrew](https://brew.sh/) to install and manage MacOS softwares
