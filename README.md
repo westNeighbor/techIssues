@@ -14,7 +14,7 @@ collect the problems met for hardware and software and solutions
 - Stable Diffusion & ComfyUI
   - `Install` or `Update` the needed packages (e.g. CUDA, CNDNN, extensions dependents) to their own python packages, so they will not depend on the OS.
   - ComfyUI failed to install package and giving messages like this:
-    >       !!
+           !!
 
               ********************************************************************************
               As setuptools moves its configuration towards `pyproject.toml`,
