@@ -36,7 +36,7 @@ collect the problems met for hardware and software and solutions
     |--- insightface-0.7.3-cp311-cp311-win_amd64.whl
     
     In the termial, execute `.\python_embeded\python.exe -m pip install "your path \insightface-0.7.3-cp311-cp311-win_amd64.whl" onnxruntime`, if shows no perssion, go to the folder, right click -> Properties -> Security -> Edit, gives `Users` `full control` permission
-
+  - Version of `mmcv`, `torch`, etc, need to make sure the compatible versions, [mmcv installation](https://mmcv.readthedocs.io/en/latest/get_started/installation.html) and [torch installation](https://pytorch.org/get-started/previous-versions/)
 # Linux and MacOS
 - ![Homebrew](https://brew.sh/) to install and manage MacOS softwares
 - ![Oh My Zsh](https://ohmyz.sh/) as default shell
