@@ -37,6 +37,8 @@ collect the problems met for hardware and software and solutions
     
     In the termial, execute `.\python_embeded\python.exe -m pip install "your path \insightface-0.7.3-cp311-cp311-win_amd64.whl" onnxruntime`, if shows no perssion, go to the folder, right click -> Properties -> Security -> Edit, gives `Users` `full control` permission
   - Version of `mmcv`, `torch`, etc, need to make sure the compatible versions, [mmcv installation](https://mmcv.readthedocs.io/en/latest/get_started/installation.html) and [torch installation](https://pytorch.org/get-started/previous-versions/)
+  - Make sure `onnxruntime-gpu` compatible with `CUDA` and `CUDNN` versions, [onnxruntime -> CUDA -> CUDNN version match](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html), also install the version with url to make cuda work noramlly, `pip install onnxruntime-gpu==1.18.0 --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/`
+    
 # Linux and MacOS
 - ![Homebrew](https://brew.sh/) to install and manage MacOS softwares
 - ![Oh My Zsh](https://ohmyz.sh/) as default shell
