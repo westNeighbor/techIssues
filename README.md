@@ -43,3 +43,8 @@ collect the problems met for hardware and software and solutions
 - ![Homebrew](https://brew.sh/) to install and manage MacOS softwares
 - ![Oh My Zsh](https://ohmyz.sh/) as default shell
 - ![Vundle](https://github.com/VundleVim/Vundle.vim) to install and manage `vim` plugins. ![YouCompleteMe](https://github.com/ycm-core/YouCompleteMe) as `C/C++` and `Python` development engine.
+- To use multiple versions of software in MacOS, say `Blender`:
+  1. Go to `Applications` Folder, copy `Blender` and rename the copy (`Blender copy`), say `Blender4.1`. Now you have `Blender` and `Blender4.1`. Don't delete `Blender` here, when you install new version by `homebrew`, it will automatically cover it.
+  2. Install a new version of `Blender` by `brew install Blender` or `brew upgrade Blender`, say the new version is `Blender4.2.1`
+  3. Go to `/opt/homebrew/Caskroom/blender`, you should have a folder `4.2.1`, make a new directory `4.1.1`, then go to `4.1.1` by `cd 4.1.1`, now make a link by `ln -s /Applications/Blender4.1.app Blender4.1.app` (this is what you just reanamed in step 1) and copy a file by `cp ../4.2.1/blender.wrapper.sh`; change the second line to `'/Applications/Blender4.1.app/Contents/MacOS/Blender' "$@"`
+  4. Last, go to `/opt/homebrew/bin/` and make a link by `ln -s /opt/homebrew/Caskroom/blender/4.1.1/blender.wrapper.sh blender4.1`. Now open a new terminal, you can type `blender4.1` to open it.
